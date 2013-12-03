@@ -109,7 +109,7 @@
 		1DBBE0D5184CF26000E767CE /* CoreMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMath.h; sourceTree = "<group>"; };
 		1DBBE0F3184CF2FE00E767CE /* module.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = module.map; sourceTree = "<group>"; };
 		1DBBE0F6184CF36E00E767CE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		1DBBE0F7184CF38400E767CE /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		1DBBE0F7184CF38400E767CE /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = .travis.yml; sourceTree = "<group>"; };
 		1DBBE0F8184CF43F00E767CE /* CMVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVector.h; sourceTree = "<group>"; };
 		1DBBE0F9184CF43F00E767CE /* CMVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVector.m; sourceTree = "<group>"; };
 		1DBBE102184CF48700E767CE /* CoreMathTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMathTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
