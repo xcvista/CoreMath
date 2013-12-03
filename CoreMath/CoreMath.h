@@ -8,4 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+#import <CoreMath/NSObject+CMOverloading.h>
+#import <CoreMath/NSObject+CMArithmetic.h>
 
+#import <CoreMath/CMVector.h>

@@ -9,21 +9,59 @@
 /* Begin PBXBuildFile section */
 		1DBBE0C9184CF26000E767CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE0C8184CF26000E767CE /* Cocoa.framework */; };
 		1DBBE0D3184CF26000E767CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBE0D1184CF26000E767CE /* InfoPlist.strings */; };
-		1DBBE0DE184CF26000E767CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE0DD184CF26000E767CE /* XCTest.framework */; };
-		1DBBE0DF184CF26000E767CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE0C8184CF26000E767CE /* Cocoa.framework */; };
-		1DBBE0E2184CF26000E767CE /* CoreMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE0C5184CF26000E767CE /* CoreMath.framework */; };
-		1DBBE0E8184CF26000E767CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBE0E6184CF26000E767CE /* InfoPlist.strings */; };
-		1DBBE0EA184CF26000E767CE /* CoreMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE0E9184CF26000E767CE /* CoreMathTests.m */; };
 		1DBBE0F5184CF34C00E767CE /* module.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DBBE0F3184CF2FE00E767CE /* module.map */; };
+		1DBBE0FA184CF43F00E767CE /* CMVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBBE0F8184CF43F00E767CE /* CMVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DBBE0FB184CF43F00E767CE /* CMVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE0F9184CF43F00E767CE /* CMVector.m */; };
+		1DBBE104184CF48700E767CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE103184CF48700E767CE /* SenTestingKit.framework */; };
+		1DBBE116184CF4CA00E767CE /* CMVectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE115184CF4CA00E767CE /* CMVectorTest.m */; };
+		1DBBE117184CF4CE00E767CE /* CoreMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBBE0D5184CF26000E767CE /* CoreMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DBBE118184CF4FD00E767CE /* CoreMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE0C5184CF26000E767CE /* CoreMath.framework */; };
+		1DBBE11A184CF55900E767CE /* CoreMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DBBE0C5184CF26000E767CE /* CoreMath.framework */; };
+		1DBBE11F184CF65600E767CE /* NSObject+CMArithmetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBBE11D184CF65600E767CE /* NSObject+CMArithmetic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DBBE120184CF65600E767CE /* NSObject+CMArithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE11E184CF65600E767CE /* NSObject+CMArithmetic.m */; };
+		1DBBE123184CFDE200E767CE /* NSObject+CMOverloading.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBBE121184CFDE200E767CE /* NSObject+CMOverloading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DBBE124184CFDE200E767CE /* NSObject+CMOverloading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE122184CFDE200E767CE /* NSObject+CMOverloading.m */; };
+		1DBBE135184CFEBF00E767CE /* MSBooster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBBE12E184CFE9C00E767CE /* MSBooster.framework */; };
+		1DBBE137184CFEFC00E767CE /* MSBooster.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DBBE12E184CFE9C00E767CE /* MSBooster.framework */; };
+		1DBBE13C184D066500E767CE /* NSNumber+CMArithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE13A184D066500E767CE /* NSNumber+CMArithmetic.m */; };
+		1DBBE13E184D836600E767CE /* CMNumberArithmeticTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBE13D184D836600E767CE /* CMNumberArithmeticTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DBBE0E0184CF26000E767CE /* PBXContainerItemProxy */ = {
+		1DBBE10E184CF48700E767CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1DBBE0BC184CF26000E767CE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1DBBE0C4184CF26000E767CE;
 			remoteInfo = CoreMath;
+		};
+		1DBBE12D184CFE9C00E767CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D4BF07D17A8FF30005080A2;
+			remoteInfo = MSBooster;
+		};
+		1DBBE12F184CFE9C00E767CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D5CBA1B17BD4900009D58E2;
+			remoteInfo = MobileBooster;
+		};
+		1DBBE131184CFE9C00E767CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D03B5EA17EA1C060067D035;
+			remoteInfo = "MSBooster Tests";
+		};
+		1DBBE133184CFE9C00E767CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D278D1817EB081B00FBDA36;
+			remoteInfo = "MSBooster Profiling";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +76,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DBBE119184CF55200E767CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1DBBE11A184CF55900E767CE /* CoreMath.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBBE136184CFEDA00E767CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1DBBE137184CFEFC00E767CE /* MSBooster.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,14 +107,23 @@
 		1DBBE0D0184CF26000E767CE /* CoreMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreMath-Info.plist"; sourceTree = "<group>"; };
 		1DBBE0D2184CF26000E767CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DBBE0D5184CF26000E767CE /* CoreMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMath.h; sourceTree = "<group>"; };
-		1DBBE0DC184CF26000E767CE /* CoreMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DBBE0DD184CF26000E767CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1DBBE0E5184CF26000E767CE /* CoreMathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreMathTests-Info.plist"; sourceTree = "<group>"; };
-		1DBBE0E7184CF26000E767CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1DBBE0E9184CF26000E767CE /* CoreMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMathTests.m; sourceTree = "<group>"; };
 		1DBBE0F3184CF2FE00E767CE /* module.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = module.map; sourceTree = "<group>"; };
 		1DBBE0F6184CF36E00E767CE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1DBBE0F7184CF38400E767CE /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		1DBBE0F8184CF43F00E767CE /* CMVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVector.h; sourceTree = "<group>"; };
+		1DBBE0F9184CF43F00E767CE /* CMVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVector.m; sourceTree = "<group>"; };
+		1DBBE102184CF48700E767CE /* CoreMathTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMathTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBBE103184CF48700E767CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1DBBE107184CF48700E767CE /* CoreMathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "CoreMathTests-Info.plist"; path = "CoreMathTests/CoreMathTests-Info.plist"; sourceTree = "<group>"; };
+		1DBBE109184CF48700E767CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DBBE115184CF4CA00E767CE /* CMVectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVectorTest.m; sourceTree = "<group>"; };
+		1DBBE11D184CF65600E767CE /* NSObject+CMArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CMArithmetic.h"; sourceTree = "<group>"; };
+		1DBBE11E184CF65600E767CE /* NSObject+CMArithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CMArithmetic.m"; sourceTree = "<group>"; };
+		1DBBE121184CFDE200E767CE /* NSObject+CMOverloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CMOverloading.h"; sourceTree = "<group>"; };
+		1DBBE122184CFDE200E767CE /* NSObject+CMOverloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CMOverloading.m"; sourceTree = "<group>"; };
+		1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MSBooster.xcodeproj; path = MSBooster/MSBooster.xcodeproj; sourceTree = "<group>"; };
+		1DBBE13A184D066500E767CE /* NSNumber+CMArithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CMArithmetic.m"; sourceTree = "<group>"; };
+		1DBBE13D184D836600E767CE /* CMNumberArithmeticTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNumberArithmeticTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +131,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBBE135184CFEBF00E767CE /* MSBooster.framework in Frameworks */,
 				1DBBE0C9184CF26000E767CE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DBBE0D9184CF26000E767CE /* Frameworks */ = {
+		1DBBE0FF184CF48700E767CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DBBE0DF184CF26000E767CE /* Cocoa.framework in Frameworks */,
-				1DBBE0DE184CF26000E767CE /* XCTest.framework in Frameworks */,
-				1DBBE0E2184CF26000E767CE /* CoreMath.framework in Frameworks */,
+				1DBBE118184CF4FD00E767CE /* CoreMath.framework in Frameworks */,
+				1DBBE104184CF48700E767CE /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +154,7 @@
 				1DBBE0F6184CF36E00E767CE /* .gitignore */,
 				1DBBE0F7184CF38400E767CE /* .travis.yml */,
 				1DBBE0CE184CF26000E767CE /* CoreMath */,
-				1DBBE0E3184CF26000E767CE /* CoreMathTests */,
+				1DBBE105184CF48700E767CE /* CoreMathTests */,
 				1DBBE0C7184CF26000E767CE /* Frameworks */,
 				1DBBE0C6184CF26000E767CE /* Products */,
 			);
@@ -97,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				1DBBE0C5184CF26000E767CE /* CoreMath.framework */,
-				1DBBE0DC184CF26000E767CE /* CoreMathTests.xctest */,
+				1DBBE102184CF48700E767CE /* CoreMathTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,11 +172,10 @@
 		1DBBE0C7184CF26000E767CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DBBE0C8184CF26000E767CE /* Cocoa.framework */,
-				1DBBE0DD184CF26000E767CE /* XCTest.framework */,
-				1DBBE0CA184CF26000E767CE /* Other Frameworks */,
+				1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */,
+				1DBBE125184CFE3D00E767CE /* System Frameworks */,
 			);
-			name = Frameworks;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		1DBBE0CA184CF26000E767CE /* Other Frameworks */ = {
@@ -126,6 +192,13 @@
 			isa = PBXGroup;
 			children = (
 				1DBBE0D5184CF26000E767CE /* CoreMath.h */,
+				1DBBE121184CFDE200E767CE /* NSObject+CMOverloading.h */,
+				1DBBE122184CFDE200E767CE /* NSObject+CMOverloading.m */,
+				1DBBE11D184CF65600E767CE /* NSObject+CMArithmetic.h */,
+				1DBBE11E184CF65600E767CE /* NSObject+CMArithmetic.m */,
+				1DBBE13A184D066500E767CE /* NSNumber+CMArithmetic.m */,
+				1DBBE0F8184CF43F00E767CE /* CMVector.h */,
+				1DBBE0F9184CF43F00E767CE /* CMVector.m */,
 				1DBBE0CF184CF26000E767CE /* Supporting Files */,
 			);
 			path = CoreMath;
@@ -141,22 +214,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1DBBE0E3184CF26000E767CE /* CoreMathTests */ = {
+		1DBBE105184CF48700E767CE /* CoreMathTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DBBE0E9184CF26000E767CE /* CoreMathTests.m */,
-				1DBBE0E4184CF26000E767CE /* Supporting Files */,
+				1DBBE13D184D836600E767CE /* CMNumberArithmeticTest.m */,
+				1DBBE115184CF4CA00E767CE /* CMVectorTest.m */,
+				1DBBE106184CF48700E767CE /* Supporting Files */,
 			);
 			path = CoreMathTests;
 			sourceTree = "<group>";
 		};
-		1DBBE0E4184CF26000E767CE /* Supporting Files */ = {
+		1DBBE106184CF48700E767CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DBBE0E5184CF26000E767CE /* CoreMathTests-Info.plist */,
-				1DBBE0E6184CF26000E767CE /* InfoPlist.strings */,
+				1DBBE107184CF48700E767CE /* CoreMathTests-Info.plist */,
+				1DBBE108184CF48700E767CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DBBE125184CFE3D00E767CE /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBE0C8184CF26000E767CE /* Cocoa.framework */,
+				1DBBE103184CF48700E767CE /* SenTestingKit.framework */,
+				1DBBE0CA184CF26000E767CE /* Other Frameworks */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+		1DBBE127184CFE9C00E767CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBE12E184CFE9C00E767CE /* MSBooster.framework */,
+				1DBBE130184CFE9C00E767CE /* MSBooster.framework */,
+				1DBBE132184CFE9C00E767CE /* MSBooster Tests.octest */,
+				1DBBE134184CFE9C00E767CE /* MSBooster Profiling */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +261,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBBE0FA184CF43F00E767CE /* CMVector.h in Headers */,
+				1DBBE11F184CF65600E767CE /* NSObject+CMArithmetic.h in Headers */,
+				1DBBE117184CF4CE00E767CE /* CoreMath.h in Headers */,
+				1DBBE123184CFDE200E767CE /* NSObject+CMOverloading.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +280,7 @@
 				1DBBE0C2184CF26000E767CE /* Headers */,
 				1DBBE0C3184CF26000E767CE /* Resources */,
 				1DBBE0F4184CF32F00E767CE /* CopyFiles */,
+				1DBBE136184CFEDA00E767CE /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -191,23 +291,24 @@
 			productReference = 1DBBE0C5184CF26000E767CE /* CoreMath.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1DBBE0DB184CF26000E767CE /* CoreMathTests */ = {
+		1DBBE101184CF48700E767CE /* CoreMathTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DBBE0F0184CF26000E767CE /* Build configuration list for PBXNativeTarget "CoreMathTests" */;
+			buildConfigurationList = 1DBBE110184CF48700E767CE /* Build configuration list for PBXNativeTarget "CoreMathTests" */;
 			buildPhases = (
-				1DBBE0D8184CF26000E767CE /* Sources */,
-				1DBBE0D9184CF26000E767CE /* Frameworks */,
-				1DBBE0DA184CF26000E767CE /* Resources */,
+				1DBBE0FE184CF48700E767CE /* Sources */,
+				1DBBE0FF184CF48700E767CE /* Frameworks */,
+				1DBBE100184CF48700E767CE /* Resources */,
+				1DBBE119184CF55200E767CE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1DBBE0E1184CF26000E767CE /* PBXTargetDependency */,
+				1DBBE10F184CF48700E767CE /* PBXTargetDependency */,
 			);
 			name = CoreMathTests;
 			productName = CoreMathTests;
-			productReference = 1DBBE0DC184CF26000E767CE /* CoreMathTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 1DBBE102184CF48700E767CE /* CoreMathTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,7 +320,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Maxthon Chan";
 				TargetAttributes = {
-					1DBBE0DB184CF26000E767CE = {
+					1DBBE101184CF48700E767CE = {
 						TestTargetID = 1DBBE0C4184CF26000E767CE;
 					};
 				};
@@ -234,13 +335,50 @@
 			mainGroup = 1DBBE0BB184CF26000E767CE;
 			productRefGroup = 1DBBE0C6184CF26000E767CE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1DBBE127184CFE9C00E767CE /* Products */;
+					ProjectRef = 1DBBE126184CFE9C00E767CE /* MSBooster.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1DBBE0C4184CF26000E767CE /* CoreMath */,
-				1DBBE0DB184CF26000E767CE /* CoreMathTests */,
+				1DBBE101184CF48700E767CE /* CoreMathTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1DBBE12E184CFE9C00E767CE /* MSBooster.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MSBooster.framework;
+			remoteRef = 1DBBE12D184CFE9C00E767CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1DBBE130184CFE9C00E767CE /* MSBooster.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = MSBooster.framework;
+			remoteRef = 1DBBE12F184CFE9C00E767CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1DBBE132184CFE9C00E767CE /* MSBooster Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MSBooster Tests.octest";
+			remoteRef = 1DBBE131184CFE9C00E767CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1DBBE134184CFE9C00E767CE /* MSBooster Profiling */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "MSBooster Profiling";
+			remoteRef = 1DBBE133184CFE9C00E767CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1DBBE0C3184CF26000E767CE /* Resources */ = {
@@ -251,11 +389,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DBBE0DA184CF26000E767CE /* Resources */ = {
+		1DBBE100184CF48700E767CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DBBE0E8184CF26000E767CE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,24 +403,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBBE0FB184CF43F00E767CE /* CMVector.m in Sources */,
+				1DBBE13C184D066500E767CE /* NSNumber+CMArithmetic.m in Sources */,
+				1DBBE124184CFDE200E767CE /* NSObject+CMOverloading.m in Sources */,
+				1DBBE120184CF65600E767CE /* NSObject+CMArithmetic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DBBE0D8184CF26000E767CE /* Sources */ = {
+		1DBBE0FE184CF48700E767CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DBBE0EA184CF26000E767CE /* CoreMathTests.m in Sources */,
+				1DBBE13E184D836600E767CE /* CMNumberArithmeticTest.m in Sources */,
+				1DBBE116184CF4CA00E767CE /* CMVectorTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1DBBE0E1184CF26000E767CE /* PBXTargetDependency */ = {
+		1DBBE10F184CF48700E767CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1DBBE0C4184CF26000E767CE /* CoreMath */;
-			targetProxy = 1DBBE0E0184CF26000E767CE /* PBXContainerItemProxy */;
+			targetProxy = 1DBBE10E184CF48700E767CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -296,12 +438,13 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1DBBE0E6184CF26000E767CE /* InfoPlist.strings */ = {
+		1DBBE108184CF48700E767CE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DBBE0E7184CF26000E767CE /* en */,
+				1DBBE109184CF48700E767CE /* en */,
 			);
 			name = InfoPlist.strings;
+			path = CoreMathTests;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -384,6 +527,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "CoreMath/CoreMath-Info.plist";
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -398,48 +543,42 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "CoreMath/CoreMath-Info.plist";
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		1DBBE0F1184CF26000E767CE /* Debug */ = {
+		1DBBE111184CF48700E767CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreMath.framework/Versions/A/CoreMath";
-				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreMath/CoreMath-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CoreMathTests/CoreMathTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		1DBBE0F2184CF26000E767CE /* Release */ = {
+		1DBBE112184CF48700E767CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreMath.framework/Versions/A/CoreMath";
-				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreMath/CoreMath-Prefix.pch";
 				INFOPLIST_FILE = "CoreMathTests/CoreMathTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -463,11 +602,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1DBBE0F0184CF26000E767CE /* Build configuration list for PBXNativeTarget "CoreMathTests" */ = {
+		1DBBE110184CF48700E767CE /* Build configuration list for PBXNativeTarget "CoreMathTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DBBE0F1184CF26000E767CE /* Debug */,
-				1DBBE0F2184CF26000E767CE /* Release */,
+				1DBBE111184CF48700E767CE /* Debug */,
+				1DBBE112184CF48700E767CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
